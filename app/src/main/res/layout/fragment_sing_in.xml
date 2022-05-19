@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp"
+    android:background="@drawable/background_sign_up"
+    tools:context=".SingInFragment">
+
+    <Button
+        android:id="@+id/login"
+        style="@style/EditTextStyle"
+        android:gravity="center"
+        android:text="Sine Up"
+        android:textColor="#000"
+        android:backgroundTint="#B5B5B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="600dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+
+        android:id="@+id/PasswordSingIn"
+        style="@style/EditTextStyle"
+        android:backgroundTint="#B5B5B5"
+        android:textColor="#000"
+        android:gravity="center"
+        android:text="Sign In"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login" />
+
+    <ImageView
+        android:id="@+id/ImageSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="119dp"
+        tools:src="@tools:sample/avatars" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
